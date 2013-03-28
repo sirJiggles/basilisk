@@ -19,7 +19,6 @@
 
 .row {
     @include container;
-    @include susy-grid-background;
     
     .row{
         margin-left:-$grid-padding;

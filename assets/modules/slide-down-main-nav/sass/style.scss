@@ -1,0 +1,19 @@
+.slide-main-nav{
+
+}
+
+.slide-main-nav ul{
+    @include reset-box;
+}
+
+.slide-main-nav ul li{
+    @include block-left;
+    margin:0 5px 10px 0;
+    border-right:1px solid $color2;
+}
+
+.slide-main-nav ul li a{
+    outline:none;
+    text-decoration:none;
+    display:block;
+}

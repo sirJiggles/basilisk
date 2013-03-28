@@ -61,28 +61,20 @@ $currentPage = str_replace('.php', '', end(explode('/', $_SERVER['SCRIPT_FILENAM
 
             <header id="header" class="row" role="banner">
                 
-                <div class="col span-1 half">
+                <div class="col span-2 halves">
                     
                     <h1>SITE TITLE</h1>
                     
-                    <nav id="main-nav" role="navigation">
-
+                   <nav role="navigation" class="slide-main-nav">
                         <ul>
-                            <li><a href="index.php" title="Home" <?php echo ($currentPage == 'index') ? "class='active'" : ''; ?>>Home</a></li>
-                            <li><a href="article.php" title="Article" <?php echo ($currentPage == 'article') ? "class='active'" : ''; ?>>Article</a></li>
-                            <li><a href="gallery.php" title="Gallery" <?php echo ($currentPage == 'gallery') ? "class='active'" : ''; ?>>Gallery</a></li>
-                            <li><a href="news.php" title="News" <?php echo ($currentPage == 'news') ? "class='active'" : ''; ?>>News</a></li>
-                            <li><a href="accordion.php" title="Accordion" <?php echo ($currentPage == 'accordion') ? "class='active'" : ''; ?>>Accordion</a></li>
-                            <li><a href="contact.php" title="Contact" <?php echo ($currentPage == 'contact') ? "class='active'" : ''; ?>>Contact</a></li>
+                            <li><a href="#" title="click here to go to nav item one">Nav item one</a></li>
+                            <li><a href="#" title="click here to go to nav item two">Nav item two</a></li>
+                            <li><a href="#" title="click here to go to nav item three">Nav item three</a></li>
+                            <li><a href="#" title="click here to go to nav item four">Nav item four</a></li>
+                            <li><a href="#" title="click here to go to nav item five">Nav item five</a></li>
                         </ul>
-                        
                     </nav>
-                </div>
-                
-                
-                    
-                <div class="col span-1 half end">
-                    <p> This is another half ! </p>
+
                 </div>
 
                 
